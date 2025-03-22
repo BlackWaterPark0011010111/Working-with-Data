@@ -63,7 +63,8 @@ def get(data, key_path):
         if key in data if isinstance(data, dict) else key < len(data): 
             data = data[key]  
         else:
-            return None  
+            return None 
+         
     return data 
 
 # Пример данных

@@ -38,6 +38,7 @@ data = {
   ]
 }
 Output:
+
 > get(data, 'students.1.subjects.0.name')
 History
 

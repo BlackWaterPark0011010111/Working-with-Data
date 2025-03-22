@@ -91,6 +91,6 @@ data = {
     ]
 }
 
-# Проверка работы
+
 print(get(data, 'students.1.subjects.0.name')) 
 print(get(data, 'students.0.subjects.0.teacher')) 
